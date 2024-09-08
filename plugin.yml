@@ -1,18 +1,14 @@
 name: PvPToggle
 main: brokiem\pvptoggle\PvPToggle
-
 version: 1.0.0
-api: 4.0.0
-
+api: 5.0.0
 author: brokiem
-
 commands:
   pvptoggle:
     description: toggle pvp
     permission: pvptoggle.pvp
     aliases:
       - pvpt
-
 permissions:
   pvptoggle.pvp:
     default: true
